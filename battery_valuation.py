@@ -6,17 +6,17 @@ import numpy as np
 ## CONFIGURACIÓN DE LA SIMULACIÓN ##
 
 # parametros batería degradada
-Q_max_degradated = 4.753  # Carga nominal (Ah) de la batería degradada
+Q_max_degradated = 4.200  # Carga nominal (Ah) de la batería degradada
 initial_SOH_degrated = 0.80  # Initial State of Health of the battery
 life_cycles_degradated = 500  # Ciclos de vida de la batería degradada
-degradation_percentage_degradated = 0.8  # Porcentaje de degradación de la batería degradada
+degradation_percentage_degradated = 0.85  # Porcentaje de degradación de la batería degradada
 
 # parametros de batería ideal
-Q_max_ideal = 3.070  # Carga nominal (Ah) de la batería ideal
+Q_max_ideal = 3.350  # Carga nominal (Ah) de la batería ideal
 initial_SOH_ideal = 1  # Initial State of Health of the battery
 life_cycles_ideal = 500  # Ciclos de vida de la batería ideal
-degradation_percentage_ideal = 0.73  # Porcentaje de degradación de la batería ideal
-valor_ideal = 5.2  # Ideal value of the battery in monetary units
+degradation_percentage_ideal = 0.6  # Porcentaje de degradación de la batería ideal
+valor_ideal = 10  # Ideal value of the battery in monetary units
 
 # definición del perfil de uso
 # aquí se puede importar un perfil dado o definir uno sintético
